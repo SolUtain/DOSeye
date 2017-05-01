@@ -1,0 +1,66 @@
+<table>
+<form action="/cgi-bin/query.py" method="post">
+<input type="text" name="query" />
+<input type="submit" value="Search" />
+<input type="radio" name="option" value="display" /> Display Results
+<input type="radio" name="option" value="copy" /> Copy Results
+</form>
+</table>
+
+<table>
+<form action="/cgi-bin/append.py" method="post">
+<input type="submit" value="Append Files" />
+</form>
+
+<form action="/cgi-bin/tags.py" method="post">
+<input type="submit" value="Show Tags" />
+</form>
+</table>
+
+<textarea name="textcontent" readonly cols="55" rows="25"></textarea>
+
+<br />
+
+
+
+<!--
+<table><th></th>
+	
+	<tr>
+		<td>
+			<form action="/cgi-bin/query.py" method="post">
+			<input type="text" name="query" />
+			<input type="submit" value="Search" />
+			</form>
+		</td>
+
+		<td>
+			<table><th></th>
+				<tr><td>
+					<input type="radio" name="subject" value="display" /> Display Results
+				</td></tr>
+				<tr><td>
+					<input type="radio" name="subject" value="copy" /> Copy Results
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table><th></th>
+	<tr>
+		<td>
+			<form action="/cgi-bin/tags.py" method="post">
+			<input type="submit" value="Show Tags" />
+			</form>
+		</td>
+			
+		<td>
+			<form action="/cgi-bin/append.py" method="post">
+			<input type="submit" value="Appends Files" />
+			</form>
+		</td>
+	</tr>
+</table>
+
+<textarea name="textcontent" readonly cols="55" rows="25"></textarea>
+-->
